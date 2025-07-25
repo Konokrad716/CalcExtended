@@ -37,7 +37,7 @@ func zeroRemove(n string) string {
 	return n
 }
 
-func calcExpr(expression string) (string, error) {
+func CalcExpr(expression string) (string, error) {
 	var vars []string
 	var sum string
 	i := 0
